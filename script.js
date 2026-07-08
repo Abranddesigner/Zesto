@@ -146,7 +146,6 @@ style.innerHTML = `
 @media(max-width:992px){
 
 nav{
-
 position:absolute;
 top:90px;
 left:0;
@@ -154,21 +153,20 @@ width:100%;
 background:#000;
 display:none;
 padding:25px;
-box-shadow:0 10px 30px rgba(0,0,0,.12);
-
+box-shadow:0 10px 30px rgba(0,0,0,.4);
 }
 
 nav.show-menu{
-
 display:block;
-
 }
 
 nav ul{
-
 flex-direction:column;
 gap:20px;
+}
 
+nav a{
+color:#fff;
 }
 
 }
