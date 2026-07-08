@@ -2,330 +2,1135 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZESTO | Fast Food</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+<title>ZESTO | Fast Food</title>
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<!-- AOS Animation -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
 
-    <!--==================== TOP BAR ====================-->
+<!--==================== LOADER ====================-->
 
-    <div class="top-bar"></div>
+<div id="loader">
 
-    <!--==================== HEADER ====================-->
+<div class="loader-box">
 
-    <header>
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Zesto%20Logo.png">
 
-        <div class="container header">
+<div class="loading-bar">
 
-            <div class="logo">
+<span></span>
 
-                <img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Zesto%20Logo.png"
-                    alt="Zesto Logo">
+</div>
 
-            </div>
+</div>
 
-            <nav>
+</div>
 
-                <ul>
+<!--==================== SCROLL BAR ====================-->
 
-                    <li><a href="#">Store Location</a></li>
-                    <li><a href="#">Order Now</a></li>
-                    <li><a href="#">Home</a></li>
+<div id="progressbar"></div>
 
-                </ul>
+<!--==================== TOP BAR ====================-->
 
-            </nav>
+<div class="top-bar">
 
-            <a href="#" class="login-btn">Login</a>
+<div class="container top-flex">
 
-            <div class="menu-btn">
-                <i class="fa-solid fa-bars"></i>
-            </div>
+<div>
 
-        </div>
+🚚 Free Delivery Above ₹299
 
-    </header>
+</div>
 
+<div>
 
+Open : 10:00 AM - 11:00 PM
 
-    <!--==================== SLIDER ====================-->
+</div>
 
-    <section class="slider-area">
+</div>
 
-        <div class="container">
+</div>
 
-            <div class="slider">
+<!--==================== HEADER ====================-->
 
-                <img class="slide active"
-                    src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/1%20slide.jpg">
+<header>
 
-                <img class="slide"
-                    src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/2%20slide.jpg">
+<div class="container header">
 
-            </div>
+<div class="logo">
 
-        </div>
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Zesto%20Logo.png">
 
-    </section>
+</div>
 
+<nav>
 
+<ul>
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#">Store Location</a></li>
+
+<li><a href="#">Order Now</a></li>
+
+<li><a href="#">Menu</a></li>
+
+<li><a href="#">Offers</a></li>
+
+<li><a href="#">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<div class="header-right">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+<i class="fa-solid fa-cart-shopping"></i>
+
+<a href="#" class="login-btn">
+
+Login
+
+</a>
+
+</div>
+
+<div class="menu-btn">
+
+<i class="fa-solid fa-bars"></i>
+
+</div>
+
+</div>
+
+</header>
+
+<!--==================== HERO ====================-->
+
+<section class="hero">
+
+<div class="container">
+
+<div class="slider">
+
+<img class="slide active"
+src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/1%20slide.jpg">
+
+<img class="slide"
+src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/2%20slide.jpg">
+
+<div class="hero-content" data-aos="fade-right">
+
+<div class="offer-tag">
+
+🔥 Flat 30% OFF
+
+</div>
+
+<h1>
+
+Fresh Taste
+
+<span>
+
+Fast Delivery
+
+</span>
+
+</h1>
+
+<p>
+
+Hot Burgers, Crispy Fries, Loaded Pizza &
+Refreshing Drinks Delivered To Your Door.
+
+</p>
+
+<div class="hero-btn">
+
+<a href="#">
+
+Order Now
+
+</a>
+
+<a href="#">
+
+Explore Menu
+
+</a>
+
+</div>
+
+</div>
+
+<!-- Floating Food -->
+
+<div class="floating burger">
+
+🍔
+
+</div>
+
+<div class="floating fries">
+
+🍟
+
+</div>
+
+<div class="floating pizza">
+
+🍕
+
+</div>
+
+<div class="floating drink">
+
+🥤
+
+</div>
+
+<div class="floating taco">
+
+🌮
+
+</div>
+
+</div>
+
+</div>
+
+</section>
 
     <!--==================== CATEGORY ====================-->
 
-    <section class="category">
+<section class="category">
 
-        <div class="container">
+<div class="container">
 
-            <div class="title">
+<div class="title" data-aos="fade-up">
 
-                <h2>Cravings Corner</h2>
+<h2>
 
-                <p>Featured Categories</p>
+Cravings Corner
 
-            </div>
+</h2>
 
-            <div class="category-grid">
+<p>
 
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
-                    <h3>Burger</h3>
-                </div>
+Featured Categories
 
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
-                    <h3>Pizza</h3>
-                </div>
+</p>
 
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
-                    <h3>Sandwich</h3>
-                </div>
+</div>
 
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
-                    <h3>Fries</h3>
-                </div>
+<div class="category-grid">
 
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
-                    <h3>Pasta</h3>
-                </div>
+<div class="card" data-aos="zoom-in" data-aos-delay="100">
 
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
-                    <h3>Roll</h3>
-                </div>
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
 
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
-                    <h3>Momos</h3>
-                </div>
+<h3>Burger</h3>
 
-                <div class="card">
-                    <img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
-                    <h3>Cold Drink</h3>
-                </div>
+</div>
 
-                <div class="card mobile-only">
-                    <img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
-                    <h3>Ice Cream</h3>
-                </div>
+<div class="card" data-aos="zoom-in" data-aos-delay="200">
 
-            </div>
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
 
-            <div class="view-btn">
+<h3>Pizza</h3>
 
-                <a href="#">View All</a>
+</div>
 
-            </div>
+<div class="card" data-aos="zoom-in" data-aos-delay="300">
 
-        </div>
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
 
-    </section>
+<h3>Sandwich</h3>
 
+</div>
 
+<div class="card" data-aos="zoom-in" data-aos-delay="400">
 
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
 
-    <!--==================== FOOD ====================-->
+<h3>French Fries</h3>
 
-    <section class="food">
+</div>
 
-        <div class="container">
+<div class="card" data-aos="zoom-in" data-aos-delay="500">
 
-            <div class="title">
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
 
-                <h2>Food For Every Mood</h2>
+<h3>Pasta</h3>
 
-                <p>Trending Items</p>
+</div>
 
-            </div>
+<div class="card" data-aos="zoom-in" data-aos-delay="600">
 
-            <div class="food-grid">
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
 
-                <div class="food-card">
+<h3>Momos</h3>
 
-                    <img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
+</div>
 
-                    <h3>Cheese Burger</h3>
+<div class="card" data-aos="zoom-in" data-aos-delay="700">
 
-                    <span>₹149</span>
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
 
-                    <a href="#">Buy Now</a>
+<h3>Cold Drinks</h3>
 
-                </div>
+</div>
 
-                <div class="food-card">
+<div class="card" data-aos="zoom-in" data-aos-delay="800">
 
-                    <img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
 
-                    <h3>Veg Pizza</h3>
+<h3>Ice Cream</h3>
 
-                    <span>₹249</span>
+</div>
 
-                    <a href="#">Buy Now</a>
+</div>
 
-                </div>
+<div class="view-btn">
 
-                <div class="food-card">
+<a href="#">
 
-                    <img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
+View All
 
-                    <h3>French Fries</h3>
+</a>
 
-                    <span>₹99</span>
+</div>
 
-                    <a href="#">Buy Now</a>
+</div>
 
-                </div>
+</section>
 
-                <div class="food-card">
+<!--==================== OFFER STRIP ====================-->
 
-                    <img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
+<section class="offer-strip">
 
-                    <h3>White Sauce Pasta</h3>
+<div class="container">
 
-                    <span>₹199</span>
+<div class="offer-box">
 
-                    <a href="#">Buy Now</a>
+<div>
 
-                </div>
+🔥 Flat 30% OFF On Your First Order
 
-                <div class="food-card">
+</div>
 
-                    <img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
+<div>
 
-                    <h3>Momos</h3>
+🚚 Free Delivery Above ₹299
 
-                    <span>₹129</span>
+</div>
 
-                    <a href="#">Buy Now</a>
+<div>
 
-                </div>
+🍔 Fresh & Hot Everyday
 
-                <div class="food-card">
+</div>
 
-                    <img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
+</div>
 
-                    <h3>Cold Coffee</h3>
+</div>
 
-                    <span>₹159</span>
+</section>
 
-                    <a href="#">Buy Now</a>
+<!--==================== STATS ====================-->
 
-                </div>
+<section class="stats">
 
-            </div>
+<div class="container stats-grid">
 
-        </div>
+<div class="stat-box" data-aos="fade-up">
 
-    </section>
+<h2 class="counter" data-count="50000">
 
+0
 
+</h2>
 
+<p>
 
+Orders Delivered
+
+</p>
+
+</div>
+
+<div class="stat-box" data-aos="fade-up" data-aos-delay="100">
+
+<h2 class="counter" data-count="12000">
+
+0
+
+</h2>
+
+<p>
+
+Happy Customers
+
+</p>
+
+</div>
+
+<div class="stat-box" data-aos="fade-up" data-aos-delay="200">
+
+<h2 class="counter" data-count="35">
+
+0
+
+</h2>
+
+<p>
+
+Food Items
+
+</p>
+
+</div>
+
+<div class="stat-box" data-aos="fade-up" data-aos-delay="300">
+
+<h2>
+
+4.9★
+
+</h2>
+
+<p>
+
+Google Rating
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!--==================== BEST SELLER TITLE ====================-->
+
+<section class="best-title">
+
+<div class="container">
+
+<div class="title">
+
+<h2>
+
+Food For Every Mood
+
+</h2>
+
+<p>
+
+Trending Items
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+    <!--==================== TRENDING FOOD ====================-->
+
+<section class="food">
+
+<div class="container">
+
+<div class="food-grid">
+
+<!-- Card 1 -->
+
+<div class="food-card" data-aos="zoom-in">
+
+<div class="badge">Best Seller</div>
+
+<div class="fav">
+
+<i class="fa-regular fa-heart"></i>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
+
+<div class="food-info">
+
+<div class="rating">
+
+⭐⭐⭐⭐⭐ <span>(4.9)</span>
+
+</div>
+
+<h3>Cheese Burger</h3>
+
+<p>
+
+Loaded with cheese, fresh veggies and premium sauce.
+
+</p>
+
+<div class="price-row">
+
+<h2>₹149</h2>
+
+<a href="#">Buy Now</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 2 -->
+
+<div class="food-card" data-aos="zoom-in" data-aos-delay="100">
+
+<div class="badge">Hot</div>
+
+<div class="fav">
+
+<i class="fa-regular fa-heart"></i>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
+
+<div class="food-info">
+
+<div class="rating">
+
+⭐⭐⭐⭐⭐ <span>(4.8)</span>
+
+</div>
+
+<h3>Veg Pizza</h3>
+
+<p>
+
+Cheesy loaded pizza with fresh toppings.
+
+</p>
+
+<div class="price-row">
+
+<h2>₹249</h2>
+
+<a href="#">Buy Now</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 3 -->
+
+<div class="food-card" data-aos="zoom-in" data-aos-delay="200">
+
+<div class="badge">Popular</div>
+
+<div class="fav">
+
+<i class="fa-regular fa-heart"></i>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
+
+<div class="food-info">
+
+<div class="rating">
+
+⭐⭐⭐⭐⭐ <span>(4.9)</span>
+
+</div>
+
+<h3>French Fries</h3>
+
+<p>
+
+Extra crispy fries served with spicy dip.
+
+</p>
+
+<div class="price-row">
+
+<h2>₹99</h2>
+
+<a href="#">Buy Now</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 4 -->
+
+<div class="food-card" data-aos="zoom-in" data-aos-delay="300">
+
+<div class="badge">Chef Choice</div>
+
+<div class="fav">
+
+<i class="fa-regular fa-heart"></i>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
+
+<div class="food-info">
+
+<div class="rating">
+
+⭐⭐⭐⭐⭐ <span>(5.0)</span>
+
+</div>
+
+<h3>White Sauce Pasta</h3>
+
+<p>
+
+Creamy white sauce pasta with herbs.
+
+</p>
+
+<div class="price-row">
+
+<h2>₹199</h2>
+
+<a href="#">Buy Now</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 5 -->
+
+<div class="food-card" data-aos="zoom-in" data-aos-delay="400">
+
+<div class="badge">Spicy</div>
+
+<div class="fav">
+
+<i class="fa-regular fa-heart"></i>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
+
+<div class="food-info">
+
+<div class="rating">
+
+⭐⭐⭐⭐⭐ <span>(4.8)</span>
+
+</div>
+
+<h3>Momos</h3>
+
+<p>
+
+Steamed momos served with hot chutney.
+
+</p>
+
+<div class="price-row">
+
+<h2>₹129</h2>
+
+<a href="#">Buy Now</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Card 6 -->
+
+<div class="food-card" data-aos="zoom-in" data-aos-delay="500">
+
+<div class="badge">Refreshing</div>
+
+<div class="fav">
+
+<i class="fa-regular fa-heart"></i>
+
+</div>
+
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
+
+<div class="food-info">
+
+<div class="rating">
+
+⭐⭐⭐⭐⭐ <span>(4.9)</span>
+
+</div>
+
+<h3>Cold Coffee</h3>
+
+<p>
+
+Creamy cold coffee topped with chocolate.
+
+</p>
+
+<div class="price-row">
+
+<h2>₹159</h2>
+
+<a href="#">Buy Now</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--==================== TODAY OFFER ====================-->
+
+<section class="today-offer">
+
+<div class="container">
+
+<div class="offer-banner" data-aos="zoom-in">
+
+<h2>
+
+🍔 BUY 1 GET 1 FREE
+
+</h2>
+
+<p>
+
+Limited Time Offer | Valid Today Only
+
+</p>
+
+<a href="#">
+
+Claim Now
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+    <!--==================== HAPPY CUSTOMERS ====================-->
+
+<section class="reviews">
+
+<div class="container">
+
+<div class="title">
+
+<h2>
+
+Happy Customers
+
+</h2>
+
+<p>
+
+Loved By Thousands
+
+</p>
+
+</div>
+
+<div class="review-grid">
+
+<div class="review-card" data-aos="fade-up">
+
+<div class="review-top">
+
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
+
+<div>
+
+<h3>Rahul Sharma</h3>
+
+<span>Food Blogger</span>
+
+</div>
+
+</div>
+
+<div class="stars">
+
+⭐⭐⭐⭐⭐
+
+</div>
+
+<p>
+
+The burgers are absolutely delicious and the delivery is super fast. Highly recommended!
+
+</p>
+
+</div>
+
+<div class="review-card" data-aos="fade-up" data-aos-delay="150">
+
+<div class="review-top">
+
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
+
+<div>
+
+<h3>Priya Singh</h3>
+
+<span>Regular Customer</span>
+
+</div>
+
+</div>
+
+<div class="stars">
+
+⭐⭐⭐⭐⭐
+
+</div>
+
+<p>
+
+Best pizza in the city. Crispy crust, loaded cheese and fresh toppings.
+
+</p>
+
+</div>
+
+<div class="review-card" data-aos="fade-up" data-aos-delay="300">
+
+<div class="review-top">
+
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
+
+<div>
+
+<h3>Aman Verma</h3>
+
+<span>Verified User</span>
+
+</div>
+
+</div>
+
+<div class="stars">
+
+⭐⭐⭐⭐⭐
+
+</div>
+
+<p>
+
+Amazing service with fresh food every time. Totally worth the money.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--==================== INSTAGRAM GALLERY ====================-->
+
+<section class="gallery">
+
+<div class="container">
+
+<div class="title">
+
+<h2>
+
+Food Gallery
+
+</h2>
+
+<p>
+
+Fresh Every Day
+
+</p>
+
+</div>
+
+<div class="gallery-grid">
+
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
+
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
+
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
+
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
+
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
+
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Dp.png">
+
+</div>
+
+</div>
+
+</section>
+
+<!--==================== NEWSLETTER ====================-->
+
+<section class="newsletter">
+
+<div class="container">
+
+<div class="newsletter-box">
+
+<h2>
+
+🍔 Get Amazing Offers Every Week
+
+</h2>
+
+<p>
+
+Subscribe and receive exclusive discounts, coupons and combo offers.
+
+</p>
+
+<div class="newsletter-form">
+
+<input type="email" placeholder="Enter your email">
+
+<button>
+
+Subscribe
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--==================== FLOATING BUTTONS ====================-->
+
+<a href="https://wa.me/918440048355" class="whatsapp-btn" target="_blank">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
+<button id="topBtn">
+
+<i class="fa-solid fa-arrow-up"></i>
+
+</button>
 
     <!--==================== FOOTER ====================-->
 
-    <footer>
+<footer>
 
-        <div class="container footer">
+<div class="container footer">
 
-            <div>
+<div class="footer-col">
 
-                <h3>Useful Links</h3>
+<img class="footer-logo"
+src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/Zesto%20Logo.png">
 
-                <a href="#">Privacy Policy</a>
+<p>
 
-                <a href="#">Terms & Conditions</a>
+Fresh Taste, Fast Delivery & Premium Quality Food.
+Serving Happiness Since 2026.
 
-                <a href="#">Promo Codes</a>
+</p>
 
-                <a href="#">Refund Policy</a>
+<div class="footer-social">
 
-            </div>
+<a href="#"><i class="fab fa-facebook-f"></i></a>
 
-            <div>
+<a href="#"><i class="fab fa-instagram"></i></a>
 
-                <h3>Payment Methods</h3>
+<a href="#"><i class="fab fa-youtube"></i></a>
 
-                <img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/payment.png"
-                    class="payment">
+<a href="#"><i class="fab fa-x-twitter"></i></a>
 
-            </div>
+</div>
 
-            <div>
+</div>
 
-                <h3>Address</h3>
+<div class="footer-col">
 
-                <p>Near Allen Couching, Piprali Road</p>
+<h3>
 
-                <p>Sikar 332001</p>
+Quick Links
 
-            </div>
+</h3>
 
-            <div>
+<ul>
 
-                <h3>Contact</h3>
+<li><a href="#">Home</a></li>
 
-                <p>zestofastfood@gmail.com</p>
+<li><a href="#">Order Now</a></li>
 
-                <p>8440048355</p>
+<li><a href="#">Menu</a></li>
 
-                <div class="social">
+<li><a href="#">Offers</a></li>
 
-                    <i class="fab fa-facebook"></i>
+<li><a href="#">Contact</a></li>
 
-                    <i class="fab fa-instagram"></i>
+</ul>
 
-                </div>
+</div>
 
-            </div>
+<div class="footer-col">
 
-        </div>
+<h3>
 
-        <div class="copyright">
+Contact Us
 
-            © 2026 ZESTO. All Rights Reserved.
+</h3>
 
-        </div>
+<p>
 
-    </footer>
+📍 Near Allen Coaching,
+Piprali Road,
+Sikar 332001
 
+</p>
 
+<p>
 
-    <script src="script.js"></script>
+📞 +91 8440048355
+
+</p>
+
+<p>
+
+✉ zestofastfood@gmail.com
+
+</p>
+
+<p>
+
+🕙 10:00 AM - 11:00 PM
+
+</p>
+
+</div>
+
+<div class="footer-col">
+
+<h3>
+
+We Accept
+
+</h3>
+
+<img src="https://raw.githubusercontent.com/Abranddesigner/Zesto/refs/heads/main/payment.png"
+class="payment">
+
+<div class="download-app">
+
+<h4>
+
+Download App
+
+</h4>
+
+<a href="#">
+
+<i class="fab fa-google-play"></i>
+
+Google Play
+
+</a>
+
+<a href="#">
+
+<i class="fab fa-apple"></i>
+
+App Store
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="copyright">
+
+<p>
+
+© 2026 <strong>ZESTO</strong>.
+All Rights Reserved | Designed with ❤️
+
+</p>
+
+</div>
+
+</footer>
+
+<!--==================== AOS ====================-->
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+
+AOS.init({
+
+duration:900,
+
+once:true
+
+});
+
+</script>
+
+<!--==================== JS ====================-->
+
+<script src="script.js"></script>
 
 </body>
 
